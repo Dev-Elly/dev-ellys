@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles/website.css">
+    <style>
+        *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(240, 242, 245);
+}
+.container{
+    background: linear-gradient(to right, rgb(14, 14, 126), rgb(36, 63, 199));
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 170px;
+    height: 100px;
+}
+
+.wikepidia{
+    text-align: left;
+}
+.account, .menu{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.link{
+    margin-top: 20px;
+    padding-right: 0px;
+    max-width: 350px;
+}
+
+.nav{
+    list-style-type: none;
+}
+
+
+.age, .info, .new{
+    display: inline;
+}
+
+.header{
+    padding-left: 16px;
+}
+
+.all{
+    max-width: 800px;
+    margin: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+} 
+
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.vector{
+    width: 100px;
+    height: 72px;
+    padding: 0px;
+    margin-right: 0px;
+}
+
+.image{
+    max-width: 500px;
+    margin: auto;
+    padding-top: 28px;
+    height: fit-content;
+    border: 3px solid darkgray;
+    text-align: center;
+    background-color: white;
+}
+
+.codes{
+    height: 45%;
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.login{
+    border: 2px solid darkblue;
+    padding-top: 16px;
+    text-align: center;
+    max-width: 500px;
+    padding-bottom: 16px;
+    background: linear-gradient(darkblue, rgb(21, 97, 210));
+    border-radius: 5px;
+    margin-left: 28px;
+    margin-right: 28px;
+    color: white;
+}
+
+.login button{
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 12px;
+    width: 120px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login .email, .password{
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.follow{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 16px;
+    text-align: center;
+    background: linear-gradient(to right, rgb(14, 14, 126), rgb(77, 102, 225));
+   height: 800px;
+    
+}
+
+
+.facebook, .twit, .insta{
+    width: 72px;
+    height: 36px;
+    text-align: center;
+    margin-top: 16px;
+    padding: 0px;
+}
+
+.join{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    margin-left: 12px;
+    margin-top: 32px;
+    color: rgb(14, 14, 126);
+}
+
+.statement{
+    margin-top: 12px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.follow, .plat, .form, .platform{
+    color: white;
+}
+
+.copywrite{
+    margin-top: 12px;
+}
+
+.services{
+    margin-top: 20px;
+}
+
+.services, .list{
+    text-align: left;
+    margin-left: 24px;
+}
+
+.location{
+    margin-top: 150px;
+    justify-content: last baseline;
+}
+
+.symbol{
+    margin-top: 48px;
+}
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <img src="dev.png">
+        <img src="wikepidia.png" class="wikepidia">
+        <div class="link">
+            <ul class="nav">
+                <li class="info"><a href="#" class="menu">Menu</a></li>
+                <li class="new"><a href="#" class="account">Sign up</a></li>
+            </ul>
+            
+        </div>  
+    </div>
+
+    <img src="vector.png" class="vector">
+    <div class="header">
+    <h1>   
+        Elys Developers
+    </h1>
+</div>
+
+    <div class="all">
+        <p class="about">
+        This is a comprehensive platform that Offers applicable skills on web development
+        and use them efficiently to solve real world situation problems.
+        There is a diverse interaction between developers from every part of
+        the world, this is done via messaging thrugh the platform.
+        This is to ensure every member of the dev family is capable of posing their problems
+        Different sessions are held to showcase skills and share knowledge.
+        Downloadable content wil be available also to enhance learning.
+        Join the family and become a devloper at your finest.
+    </p>
+    </div>
+    
+    <div class="image">
+        <img src="codes.jpeg" class="codes">
+    </div>
+
+    <p class="join">
+        Hi, Welcome back!
+    </p>
+    <p class="statement">
+         Please fill in the log below to log in
+    </p>
+
+    <div class="login">
+        <form action="submit">
+        <label for="Email">Email</label><br>
+        <input type="email" id="Email" name="email" class="email" placeholder="enter email" required><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" class="password" placeholder="enter password" required><br><br>
+        </form>
+        
+        <button>Log in</button>
+    </div>
+    
+    <div class="follow">
+        <p>
+            Follow us on
+        </p>
+        <img src="fb.png" class="facebook"><p class="plat">Elys developers</p>
+        <img src="twitter.png" class="twit"><p class="form">@Elys developers</p>
+        <img src="ig.png" class="insta"><p class="platform">Elys-developers</p>
+        
+        <h2 class="services">
+            Our services
+        </h2>
+        <ul class="list">
+            <li>Offer skills on web development</li>
+            <li>Nature skills to become a professional web developer</li>
+            <li>Offer guidance on areas conserning web development</li>
+
+        </ul>
+
+        <p class="location">&#128205 Elys Developers Katito Homa-Bay road
+            P.O BOX 42-40018 kisumu Kenya
+        </p>
+
+        <p class="email">&#9993 E-mail: elysdev@Elysdevelopers.ac.ke</p>
+
+        <footer class="Copywrite">
+                Copywrite 2025- EMO software developers
+        </footer>
+
+        <img src="symbols.png" class="symbol">
+    </div>
+    
+</body>
+</html>
