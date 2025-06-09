@@ -1,3 +1,0 @@
-* Basic html only website
-
-  
